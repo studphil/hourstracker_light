@@ -1,0 +1,5 @@
+id,client,description,tax_id,source
+1,BBC BAM CZ,Bircher Automation CZ,,Innflow
+2,FZAG,Zürich Flughafen AG,,Direct
+3,Suhner AG,Suhner Schweiz AG,,Direct
+4,UBS,UBS Schweiz AG,,POM+
