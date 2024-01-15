@@ -74,14 +74,6 @@ class TimeTracker:
     def select_project(self):
         project_selector = ProjectSelector(self.db_manager)
         return project_selector.select_project()
-    
-class ViewHours:
-
-    def __init__(self, db_manager):
-        self.db_manager = db_manager
-
-
-
 
 class ProjectSelector:
     """
@@ -147,3 +139,8 @@ class ProjectSelector:
                     print("Invalid choice. Please choose a number from the list.")
             except ValueError:
                 print("Invalid input. Please enter a number.")
+
+class ViewHours:
+
+    def __init__(self, db_manager):
+        self.db_manager = db_manager
